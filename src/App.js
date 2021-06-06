@@ -3,8 +3,8 @@ import Marked from "./Marked";
 
 function App() {
   return (
-    <VStack>
-      <Container maxW="100%" mt="5" textAlign="center" centerContent>
+    <VStack bgGradient="linear(to-l, #833ab4, #fd1d1d)">
+      <Container maxW="100%" mt="3" textAlign="center"   centerContent>
         <Box p={4} >
           <Badge colorScheme="red" color="tomato">Mardown Preview</Badge>  
         </Box>
